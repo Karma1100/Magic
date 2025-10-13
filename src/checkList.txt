@@ -1,0 +1,34 @@
+Doing:
+	Wokring on the ScryFall Api script 
+		Needs:
+			Header | 10/9/2025 Working
+			Accept  | 10/9/2025 Working
+			chunk loader | 10/9/2025 Working
+			Print to file ~into print to file scipt | 10/9/2025 Working
+	Working on making the format folder to allow for easy compile
+		Needs:
+			All data for app data:
+				Header name | 10/9/2025 Working
+				Accept name | 10/9/2025 Working
+				directory for Json outs | 10/9/2025 Working
+	Working on c compile script
+		Needs:
+			Read from a compile Json to know what is where(libcul/other scripts) | 10/9/2025 Working
+			provide linking and terminal compile for the project | 10/9/2025  Working
+			future:
+				Based on whats changed in git, recompile all of the scripts linked to changed scripts | 10/9/2025 Working
+		
+
+
+To-Do:
+	Make a github | 10/9/2025 Need to start
+	Create game field:
+		2/3/4 player? (probs 2 or 4) | 10/9/2025 Need to start
+		
+	Create game engine:
+		Wants:
+			Create sessions, where I can allow the AI to play on multiple sessions against a simmple bot or itself/prev version | 10/9/2025 Need to start
+			player can be me | 10/9/2025 Need to start
+			 
+	Create Database/outread script | 10/9/2025 Need to start
+	

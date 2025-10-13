@@ -1,0 +1,723 @@
+{
+  "cards": [
+    {
+      "name": "Goldnight Commander",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric Soldier",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric",
+        "Soldier"
+      ],
+      "rarity": "Uncommon",
+      "set": "AVR",
+      "setName": "Avacyn Restored",
+      "text": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "flavor": "\"One faith, but many hands in victory.\"",
+      "artist": "Chris Rahn",
+      "number": "22",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "240029",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=240029&type=card",
+      "rulings": [
+        {
+          "date": "2012-05-01",
+          "text": "The creature that entered the battlefield will also get +1/+1 until end of turn if it's still on the battlefield when the ability resolves."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Goldnacht-Kommandant",
+          "text": "Immer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhalten Kreaturen, die du kontrollierst, +1/+1 bis zum Ende des Zuges.",
+          "type": "Kreatur — Mensch, Kleriker, Soldat",
+          "flavor": "„Ein gemeinsamer Glaube und viele Hände brachten den Sieg.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=340542&type=card",
+          "language": "German",
+          "identifiers": {
+            "scryfallId": "98f00885-5c95-47a4-a8df-6775b75c4c73",
+            "multiverseId": 340542
+          },
+          "multiverseid": 340542
+        },
+        {
+          "name": "Comandante de la Noche Dorada",
+          "text": "Siempre que otra criatura entre al campo de batalla bajo tu control, las criaturas que controlas obtienen +1/+1 hasta el final del turno.",
+          "type": "Criatura — Soldado clérigo humano",
+          "flavor": "\"Una sola fe, pero muchas posibilidades de vencer.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=296062&type=card",
+          "language": "Spanish",
+          "identifiers": {
+            "scryfallId": "13b267a8-5525-419a-aab6-26a61aa9aeb0",
+            "multiverseId": 296062
+          },
+          "multiverseid": 296062
+        },
+        {
+          "name": "Commandant d'Ornuit",
+          "text": "À chaque fois qu'une autre créature arrive sur le champ de bataille sous votre contrôle, les créatures que vous contrôlez gagnent +1/+1 jusqu'à la fin du tour.",
+          "type": "Créature : humain et clerc et soldat",
+          "flavor": "« Une foi unique, mais une victoire partagée. »",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=295574&type=card",
+          "language": "French",
+          "identifiers": {
+            "scryfallId": "ed02480c-25d1-49d2-a840-826fe0793dde",
+            "multiverseId": 295574
+          },
+          "multiverseid": 295574
+        },
+        {
+          "name": "Comandante della Notte Dorata",
+          "text": "Ogniqualvolta un'altra creatura entra nel campo di battaglia sotto il tuo controllo, le creature che controlli prendono +1/+1 fino alla fine del turno.",
+          "type": "Creatura — Soldato Chierico Umano",
+          "flavor": "\"Una sola fede, ma molte mani a contribuire alla vittoria.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=296306&type=card",
+          "language": "Italian",
+          "identifiers": {
+            "scryfallId": "96eb31d4-923a-49e3-8ff9-d9fdab941e29",
+            "multiverseId": 296306
+          },
+          "multiverseid": 296306
+        },
+        {
+          "name": "黄金夜の指揮官",
+          "text": "他のクリーチャーが１体あなたのコントロール下で戦場に出るたび、あなたがコントロールするクリーチャーはターン終了時まで＋１/＋１の修整を受ける。",
+          "type": "クリーチャー — 人間・クレリック・兵士",
+          "flavor": "「勝利の裏には一つの信仰、そして大勢の力がある。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=294297&type=card",
+          "language": "Japanese",
+          "identifiers": {
+            "scryfallId": "03f54fd3-bf54-43b0-b8fe-c38aaa637fee",
+            "multiverseId": 294297
+          },
+          "multiverseid": 294297
+        },
+        {
+          "name": "황금야 사령관",
+          "text": "다른 생물이 당신의 조종하에 전장에 들어올 때마다, 당신이 조종하는 생물들은 턴종료까지 +1/+1을 받는다.",
+          "type": "생물 — 인간 성직자 병사",
+          "flavor": "\"승리를 위해서는 여럿이 하나의 신념으로 뭉쳐야 한다.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=294842&type=card",
+          "language": "Korean",
+          "identifiers": {
+            "scryfallId": "966cf6d5-2a4c-4c72-b1a0-160bc4344481",
+            "multiverseId": 294842
+          },
+          "multiverseid": 294842
+        },
+        {
+          "name": "Comandante dos Noite Dourada",
+          "text": "Toda vez que outra criatura entrar no campo de batalha sob seu controle, as criaturas que você controla receberão +1/+1 até o final do turno.",
+          "type": "Criatura — Humano Clérigo Soldado",
+          "flavor": "\"Uma só fé, muitos braços na vitória.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=295330&type=card",
+          "language": "Portuguese (Brazil)",
+          "identifiers": {
+            "scryfallId": "9d6b4d59-a234-40d8-9561-effdc3526d9b",
+            "multiverseId": 295330
+          },
+          "multiverseid": 295330
+        },
+        {
+          "name": "Командир Золотой Ночи",
+          "text": "Каждый раз, когда другое существо выходит на поле битвы под вашим контролем, существа под вашим контролем получают +1/+1 до конца хода.",
+          "type": "Существо — Человек Священник Солдат",
+          "flavor": "«Одна вера, но множество рук — для победы».",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=295818&type=card",
+          "language": "Russian",
+          "identifiers": {
+            "scryfallId": "0c934f54-940b-481f-be1e-1ccb7100753d",
+            "multiverseId": 295818
+          },
+          "multiverseid": 295818
+        },
+        {
+          "name": "金夜指挥官",
+          "text": "每当另一个生物在你的操控下进战场时，由你操控的生物得+1/+1直到回合结束。",
+          "type": "生物～人类／僧侣／士兵",
+          "flavor": "「万人一心，众志成城。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=294598&type=card",
+          "language": "Chinese Simplified",
+          "identifiers": {
+            "scryfallId": "b810b648-a04a-4df9-bd66-6e537178abc7",
+            "multiverseId": 294598
+          },
+          "multiverseid": 294598
+        },
+        {
+          "name": "金夜指揮官",
+          "text": "每當另一個生物在你的操控下進戰場時，由你操控的生物得+1/+1直到回合結束。",
+          "type": "生物～人類／僧侶／士兵",
+          "flavor": "「萬人一心，眾志成城。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=295086&type=card",
+          "language": "Chinese Traditional",
+          "identifiers": {
+            "scryfallId": "6ea1f06d-fafc-4c35-9420-21558f027bd2",
+            "multiverseId": 295086
+          },
+          "multiverseid": 295086
+        }
+      ],
+      "printings": [
+        "AVR",
+        "J22",
+        "KHC",
+        "ONC"
+      ],
+      "originalText": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "originalType": "Creature — Human Cleric Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oathbreaker",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Restricted"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "eb14ee08-8ea5-5c82-b25f-587e368a8a21"
+    },
+    {
+      "name": "Goldnight Commander",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric Soldier",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric",
+        "Soldier"
+      ],
+      "rarity": "Uncommon",
+      "set": "J22",
+      "setName": "Jumpstart 2022",
+      "text": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "flavor": "\"One faith, but many hands in victory.\"",
+      "artist": "Chris Rahn",
+      "number": "192",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "591469",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=591469&type=card",
+      "rulings": [
+        {
+          "date": "2012-05-01",
+          "text": "The creature that entered the battlefield will also get +1/+1 until end of turn if it's still on the battlefield when the ability resolves."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Goldnacht-Kommandant",
+          "text": "Immer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhalten Kreaturen, die du kontrollierst, +1/+1 bis zum Ende des Zuges.",
+          "type": "Kreatur — Mensch, Kleriker, Soldat",
+          "flavor": "„Ein gemeinsamer Glaube und viele Hände brachten den Sieg.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=591598&type=card",
+          "language": "German",
+          "identifiers": {
+            "scryfallId": "7c46bda3-ab47-4c06-9fc1-0d1139a4acbc",
+            "multiverseId": 591598
+          },
+          "multiverseid": 591598
+        },
+        {
+          "name": "Comandante de la Noche Dorada",
+          "text": "Siempre que otra criatura entre al campo de batalla bajo tu control, las criaturas que controlas obtienen +1/+1 hasta el final del turno.",
+          "type": "Criatura — Soldado clérigo humano",
+          "flavor": "\"Una sola fe, pero muchas posibilidades de vencer\".",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=591727&type=card",
+          "language": "Spanish",
+          "identifiers": {
+            "scryfallId": "96641af6-7821-47ef-ba1d-b6bc5d3272cc",
+            "multiverseId": 591727
+          },
+          "multiverseid": 591727
+        },
+        {
+          "name": "Commandant d'Ornuit",
+          "text": "À chaque fois qu'une autre créature arrive sur le champ de bataille sous votre contrôle, les créatures que vous contrôlez gagnent +1/+1 jusqu'à la fin du tour.",
+          "type": "Créature : humain et clerc et soldat",
+          "flavor": "« Une foi unique, mais une victoire partagée. »",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=591856&type=card",
+          "language": "French",
+          "identifiers": {
+            "scryfallId": "9f1a0c85-4310-4951-9846-d8cdca8f3ef6",
+            "multiverseId": 591856
+          },
+          "multiverseid": 591856
+        },
+        {
+          "name": "Comandante della Notte Dorata",
+          "text": "Ogniqualvolta un'altra creatura entra nel campo di battaglia sotto il tuo controllo, le creature che controlli prendono +1/+1 fino alla fine del turno.",
+          "type": "Creatura — Soldato Chierico Umano",
+          "flavor": "\"Una sola fede, ma molte mani a contribuire alla vittoria.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=591985&type=card",
+          "language": "Italian",
+          "identifiers": {
+            "scryfallId": "1359d9b4-77e4-42f6-b2cf-199e29217287",
+            "multiverseId": 591985
+          },
+          "multiverseid": 591985
+        },
+        {
+          "name": "黄金夜の指揮官",
+          "text": "これでないクリーチャー１体があなたのコントロール下で戦場に出るたび、ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋１の修整を受ける。",
+          "type": "クリーチャー — 人間・クレリック・兵士",
+          "flavor": "「勝利の裏には一つの信仰、そして大勢の力がある。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=592114&type=card",
+          "language": "Japanese",
+          "identifiers": {
+            "scryfallId": "d182acb2-effd-4de4-a073-5ac2303e70b6",
+            "multiverseId": 592114
+          },
+          "multiverseid": 592114
+        },
+        {
+          "name": "金夜指挥官",
+          "text": "每当另一个生物在你的操控下进战场时，由你操控的生物得+1/+1直到回合结束。",
+          "type": "生物 ～人类／僧侣／士兵",
+          "flavor": "「万人一心，众志成城。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=592501&type=card",
+          "language": "Chinese Simplified",
+          "identifiers": {
+            "scryfallId": "d447f799-c3c9-4bb5-a664-7dff61cd7e0e",
+            "multiverseId": 592501
+          },
+          "multiverseid": 592501
+        }
+      ],
+      "printings": [
+        "AVR",
+        "J22",
+        "KHC",
+        "ONC"
+      ],
+      "originalText": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "originalType": "Creature — Human Cleric Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oathbreaker",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Restricted"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "7d74229d-ac3f-5c85-bfe4-c638cd6d2eca"
+    },
+    {
+      "name": "Goldnight Commander",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric Soldier",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric",
+        "Soldier"
+      ],
+      "rarity": "Uncommon",
+      "set": "KHC",
+      "setName": "Kaldheim Commander",
+      "text": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "flavor": "\"One faith, but many hands in victory.\"",
+      "artist": "Chris Rahn",
+      "number": "27",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "508317",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=508317&type=card",
+      "rulings": [
+        {
+          "date": "2012-05-01",
+          "text": "The creature that entered the battlefield will also get +1/+1 until end of turn if it's still on the battlefield when the ability resolves."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Goldnacht-Kommandant",
+          "text": "Immer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhalten Kreaturen, die du kontrollierst, +1/+1 bis zum Ende des Zuges.",
+          "type": "Kreatur — Mensch, Kleriker Soldat",
+          "flavor": "„Ein gemeinsamer Glaube und viele Hände brachten den Sieg.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=508420&type=card",
+          "language": "German",
+          "identifiers": {
+            "scryfallId": "d6f78186-f060-4137-aa75-36b1b7737e3f",
+            "multiverseId": 508420
+          },
+          "multiverseid": 508420
+        },
+        {
+          "name": "Comandante de la Noche Dorada",
+          "text": "Siempre que otra criatura entre al campo de batalla bajo tu control, las criaturas que controlas obtienen +1/+1 hasta el final del turno.",
+          "type": "Criatura — Soldado clérigo humano",
+          "flavor": "\"Una sola fe, pero muchas posibilidades de vencer\".",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=508523&type=card",
+          "language": "Spanish",
+          "identifiers": {
+            "scryfallId": "06389d75-b47a-439e-b487-7d938cec691f",
+            "multiverseId": 508523
+          },
+          "multiverseid": 508523
+        },
+        {
+          "name": "Commandant d'Ornuit",
+          "text": "À chaque fois qu'une autre créature arrive sur le champ de bataille sous votre contrôle, les créatures que vous contrôlez gagnent +1/+1 jusqu'à la fin du tour.",
+          "type": "Créature : humain et clerc et soldat",
+          "flavor": "« Une foi unique, mais une victoire partagée. »",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=508626&type=card",
+          "language": "French",
+          "identifiers": {
+            "scryfallId": "1a113a45-a9ed-4e56-b595-d62850e496f9",
+            "multiverseId": 508626
+          },
+          "multiverseid": 508626
+        },
+        {
+          "name": "Comandante della Notte Dorata",
+          "text": "Ogniqualvolta un'altra creatura entra nel campo di battaglia sotto il tuo controllo, le creature che controlli prendono +1/+1 fino alla fine del turno.",
+          "type": "Creatura — Soldato Chierico Umano",
+          "flavor": "\"Una sola fede, ma molte mani a contribuire alla vittoria.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=508729&type=card",
+          "language": "Italian",
+          "identifiers": {
+            "scryfallId": "314e44db-2cfc-4d55-831d-687c0a069baf",
+            "multiverseId": 508729
+          },
+          "multiverseid": 508729
+        },
+        {
+          "name": "黄金夜の指揮官",
+          "text": "他のクリーチャー１体があなたのコントロール下で戦場に出るたび、ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋１の修整を受ける。",
+          "type": "クリーチャー — 人間・クレリック・兵士",
+          "flavor": "「勝利の裏には一つの信仰、そして大勢の力がある。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=508832&type=card",
+          "language": "Japanese",
+          "identifiers": {
+            "scryfallId": "4d165b4f-0d45-40a6-a3ff-2556f3e2af66",
+            "multiverseId": 508832
+          },
+          "multiverseid": 508832
+        },
+        {
+          "name": "Comandante dos Noite Dourada",
+          "text": "Toda vez que outra criatura entra no campo de batalha sob seu controle, as criaturas que você controla recebem +1/+1 até o final do turno.",
+          "type": "Criatura — Humano Clérigo Soldado",
+          "flavor": "\"Uma fé, mas muitas mãos na vitória.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=508935&type=card",
+          "language": "Portuguese (Brazil)",
+          "identifiers": {
+            "scryfallId": "f123a2d0-1ab7-4b44-bd70-0c2a849f77fb",
+            "multiverseId": 508935
+          },
+          "multiverseid": 508935
+        },
+        {
+          "name": "Командир Золотой Ночи",
+          "text": "Каждый раз, когда другое существо выходит на поле битвы под вашим контролем, существа под вашим контролем получают +1/+1 до конца хода.",
+          "type": "Существо — Человек Священник Солдат",
+          "flavor": "«Одна вера, но множество рук — для победы».",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=509038&type=card",
+          "language": "Russian",
+          "identifiers": {
+            "scryfallId": "ffcb6e88-da02-43d9-b636-0f75e0b0dc59",
+            "multiverseId": 509038
+          },
+          "multiverseid": 509038
+        },
+        {
+          "name": "金夜指挥官",
+          "text": "每当另一个生物在你的操控下进战场时，由你操控的生物得+1/+1直到回合结束。",
+          "type": "生物 ～人类／僧侣／士兵",
+          "flavor": "「万人一心，众志成城。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=509141&type=card",
+          "language": "Chinese Simplified",
+          "identifiers": {
+            "scryfallId": "21e73d8b-4354-461b-a35e-31d978aa2d93",
+            "multiverseId": 509141
+          },
+          "multiverseid": 509141
+        },
+        {
+          "name": "金夜指揮官",
+          "text": "每當另一個生物在你的操控下進戰場時，由你操控的生物得+1/+1直到回合結束。",
+          "type": "生物 ～人類／僧侶／士兵",
+          "flavor": "「萬人一心，眾志成城。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=509244&type=card",
+          "language": "Chinese Traditional",
+          "identifiers": {
+            "scryfallId": "e4eae579-497e-4f23-9d4d-b1cf9e015300",
+            "multiverseId": 509244
+          },
+          "multiverseid": 509244
+        }
+      ],
+      "printings": [
+        "AVR",
+        "J22",
+        "KHC",
+        "ONC"
+      ],
+      "originalText": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "originalType": "Creature — Human Cleric Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oathbreaker",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Restricted"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "67893eaa-8122-5d84-a025-28fd1ae2d0a7"
+    },
+    {
+      "name": "Goldnight Commander",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "colors": [
+        "W"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric Soldier",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric",
+        "Soldier"
+      ],
+      "rarity": "Uncommon",
+      "set": "ONC",
+      "setName": "Phyrexia: All Will Be One Commander",
+      "text": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "flavor": "\"One faith, but many hands in victory.\"",
+      "artist": "Chris Rahn",
+      "number": "72",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": "605812",
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=605812&type=card",
+      "rulings": [
+        {
+          "date": "2012-05-01",
+          "text": "The creature that entered the battlefield will also get +1/+1 until end of turn if it's still on the battlefield when the ability resolves."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Goldnacht-Kommandant",
+          "text": "Immer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhalten Kreaturen, die du kontrollierst, +1/+1 bis zum Ende des Zuges.",
+          "type": "Kreatur — Mensch, Kleriker, Soldat",
+          "flavor": "„Ein gemeinsamer Glaube und viele Hände brachten den Sieg.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=605928&type=card",
+          "language": "German",
+          "identifiers": {
+            "scryfallId": "92a9f9cb-1f40-4a3d-9f8c-c1dd9c45e44a",
+            "multiverseId": 605928
+          },
+          "multiverseid": 605928
+        },
+        {
+          "name": "Comandante de la Noche Dorada",
+          "text": "Siempre que otra criatura entre al campo de batalla bajo tu control, las criaturas que controlas obtienen +1/+1 hasta el final del turno.",
+          "type": "Criatura — Soldado clérigo humano",
+          "flavor": "\"Una sola fe, pero muchas posibilidades de vencer\".",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=606044&type=card",
+          "language": "Spanish",
+          "identifiers": {
+            "scryfallId": "773fc8a3-074c-42db-af12-73aba6006ab4",
+            "multiverseId": 606044
+          },
+          "multiverseid": 606044
+        },
+        {
+          "name": "Commandant d'Ornuit",
+          "text": "À chaque fois qu'une autre créature arrive sur le champ de bataille sous votre contrôle, les créatures que vous contrôlez gagnent +1/+1 jusqu'à la fin du tour.",
+          "type": "Créature : humain et clerc et soldat",
+          "flavor": "« Une foi unique, mais une victoire partagée. »",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=606160&type=card",
+          "language": "French",
+          "identifiers": {
+            "scryfallId": "2f06675b-c7e4-46ee-a7b5-84a0daa39922",
+            "multiverseId": 606160
+          },
+          "multiverseid": 606160
+        },
+        {
+          "name": "Comandante della Notte Dorata",
+          "text": "Ogniqualvolta un'altra creatura entra nel campo di battaglia sotto il tuo controllo, le creature che controlli prendono +1/+1 fino alla fine del turno.",
+          "type": "Creatura — Soldato Chierico Umano",
+          "flavor": "\"Una sola fede, ma molte mani a contribuire alla vittoria.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=606276&type=card",
+          "language": "Italian",
+          "identifiers": {
+            "scryfallId": "5c2b97b8-91a0-473f-839b-1cd065bb7483",
+            "multiverseId": 606276
+          },
+          "multiverseid": 606276
+        },
+        {
+          "name": "黄金夜の指揮官",
+          "text": "これでないクリーチャー１体があなたのコントロール下で戦場に出るたび、ターン終了時まで、あなたがコントロールしているすべてのクリーチャーは＋１/＋１の修整を受ける。",
+          "type": "クリーチャー — 人間・クレリック・兵士",
+          "flavor": "「勝利の裏には一つの信仰、そして大勢の力がある。」",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=606392&type=card",
+          "language": "Japanese",
+          "identifiers": {
+            "scryfallId": "58f91d60-3dab-43c9-b810-8d00ac45a965",
+            "multiverseId": 606392
+          },
+          "multiverseid": 606392
+        },
+        {
+          "name": "Comandante dos Noite Dourada",
+          "text": "Toda vez que outra criatura entra no campo de batalha sob seu controle, as criaturas que você controla recebem +1/+1 até o final do turno.",
+          "type": "Criatura — Humano Clérigo Soldado",
+          "flavor": "\"Uma fé, mas muitas mãos na vitória.\"",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=606508&type=card",
+          "language": "Portuguese (Brazil)",
+          "identifiers": {
+            "scryfallId": "6c357063-5ccf-4abe-8ce0-61e6acae016d",
+            "multiverseId": 606508
+          },
+          "multiverseid": 606508
+        }
+      ],
+      "printings": [
+        "AVR",
+        "J22",
+        "KHC",
+        "ONC"
+      ],
+      "originalText": "Whenever another creature enters the battlefield under your control, creatures you control get +1/+1 until end of turn.",
+      "originalType": "Creature — Human Cleric Soldier",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Duel",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Oathbreaker",
+          "legality": "Legal"
+        },
+        {
+          "format": "Paupercommander",
+          "legality": "Restricted"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "6e118ee8-9ebf-5d67-a376-373c283fa5ca"
+    }
+  ]
+}
