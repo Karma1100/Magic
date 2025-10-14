@@ -1,8 +1,8 @@
 Doing:
 	Wokring on the ScryFall Api script 
 		Needs:
-			Header | 10/9/2025 Working
-			Accept  | 10/9/2025 Working
+			Header | 10/13/2025 Basic implement done
+			Accept  | 10/13/2025 Baic implement done
 			chunk loader | 10/9/2025 Working
 			Print to file ~into print to file scipt | 10/9/2025 Working
 	Working on making the format folder to allow for easy compile
@@ -13,11 +13,15 @@ Doing:
 				directory for Json outs | 10/9/2025 Working
 	Working on c compile script
 		Needs:
+			REDACTED
+			{
 			Read from a compile Json to know what is where(libcul/other scripts) | 10/9/2025 Working
 			provide linking and terminal compile for the project | 10/9/2025  Working
 			future:
-				Based on whats changed in git, recompile all of the scripts linked to changed scripts | 10/9/2025 Working
-		
+			Based on whats changed in git, recompile all of the scripts linked to changed scripts | 10/9/2025 Working
+			}
+			MakeFile:
+				testconnection easy compile | 10/14/2025	
 
 
 To-Do:
