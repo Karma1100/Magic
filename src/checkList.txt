@@ -5,6 +5,14 @@ Doing:
 			Accept  | 10/13/2025 Baic implement done
 			chunk loader | 10/9/2025 Working
 			Print to file ~into print to file scipt | 10/9/2025 Working
+	_____________________________________________________________
+			Changing to /Connect(Deprecated^)
+	_____________________________________________________________
+		Needs:		
+			Header file for simple Scryfall request
+			Postgresql database setup and ETL(Extracting, Transforming, loading) scryfall data
+			Postgres lookup script and card grab automation 
+
 	Working on making the format folder to allow for easy compile
 		Needs:
 			All data for app data:
@@ -22,10 +30,16 @@ Doing:
 			}
 			MakeFile:
 				testconnection easy compile | 10/14/2025	
-
-
+				
+	Magic-AI shell
+		Doing:
+			Make quit work 
+		To-Do:
+			Allow shell to run the Scryfall look up and grab script
+			Run the game command loop
+			
 To-Do:
-	Make a github | 10/9/2025 Need to start
+	Make a github | 10/14/2025 Done
 	Create game field:
 		2/3/4 player? (probs 2 or 4) | 10/9/2025 Need to start
 		
