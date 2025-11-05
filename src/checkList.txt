@@ -12,7 +12,9 @@ Doing:
 			Header file for simple Scryfall request
 			Postgresql database setup and ETL(Extracting, Transforming, loading) scryfall data
 			Postgres lookup script and card grab automation 
-
+			
+			database check for requested card -> request card, process json & put into temp variable -> insert new card in database
+			
 	Working on making the format folder to allow for easy compile
 		Needs:
 			All data for app data:

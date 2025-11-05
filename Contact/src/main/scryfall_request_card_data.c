@@ -1,15 +1,33 @@
+#include <scryfall_request_card_data.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 #include <curl/curl.h>
+#include <cJSON.h>
 
+
+
+
+
+
+
+typedef struct{
+	char *data;
+	size_t bufferSize;
+
+}memory_buffer;
+
+
+
+#define WAIT_TIME = 200000
 
 /*
  *Need to be appended to the end of the api url. Spaces do not need to be accounted for as http will deal with it
  */
 char *formatting_url(char *url, char *card)
 {
-
 
         int url_len = strlen(url) + strlen(card) + 1;
         char *new_url = (char *)malloc(url_len * sizeof(char));
@@ -26,6 +44,42 @@ char *formatting_url(char *url, char *card)
 
 
 
+/*
+ *Need to write a function to handel the callback for the memory_buffer
+ *
+ * */
+
+
+static size_t write_callback(void *contents, size_t size, size_t nmemb, void *userp) 
+{
+    	
+	size_t total_size = size * nmemb;
+    	memory_buffer *mem = (memory_buffer *)userp;
+
+    	// 1. Reallocate: Try to resize the buffer to fit the new data
+    	char *ptr = realloc(mem->data, mem->size + total_size + 1); // +1 for null terminator
+
+    	if (ptr == NULL) 
+	{
+        	// Handle memory reallocation failure (out of memory)
+        	fprintf(stderr, "Out of memory in write_callback!\n");
+        	return 0; // Return 0 to signal an error to curl
+    	}
+
+    	mem->data = ptr;
+
+    	// 2. Append: Copy the new chunk of data to the end of the existing buffer
+    	memcpy(&(mem->data[mem->size]), contents, total_size);
+
+    	// 3. Update: Increase the tracked size and add the null terminator
+    	mem->size += total_size;
+    	mem->data[mem->size] = '\0';
+
+    	return total_size; // Return the number of bytes processed
+}
+
+
+
 
 int scryFall_request_card_data(char *card_name)
 {
@@ -35,6 +89,13 @@ int scryFall_request_card_data(char *card_name)
 	char *base_url = "https://api.scryfall.com/cards/named?fuzzy=";
 	
 	char *request_url = formatiing_url(base_url, card_name);
+	
+	
+	memory_buffer chunk;
+    	chunk.data = (char*)malloc(1); // Start with a 1-byte buffer
+    	chunk.size = 0;	 
+
+
 
 	if(curl)
         {
@@ -50,13 +111,22 @@ int scryFall_request_card_data(char *card_name)
 
                 //Url Call
                 curl_easy_setopt(curl, CURLOPT_URL, request_url);
-                res = curl_easy_perform(curl);
 
+		//setting write function
+		curl_easy_opt(curl, CURLOPT_WRITEFUNCTION, write_callback);
 
+                
+		//hard coding in request per second to 5
+		usleep(WAIT_TIME);
+		
+		
+		res = curl_easy_perform(curl);
+
+			
                 //free
                 curl_easy_cleanup(curl);
                 curl_slist_free_all(headers);
-
+		free(chunk.data);
         }
 
 	if(request_url != NULL)
@@ -66,18 +136,15 @@ int scryFall_request_card_data(char *card_name)
 
         if(res != CURLE_OK) {
             fprintf(stderr, "Connection failed: %s\n", curl_easy_strerror(res));
-            return 1;
+            return -1;
         }
         if(res == CURLE_OK)
         {
                 printf("Connection and transfer successful!\n");
                 return 0;
         }
+
 	
-	
-
-
-
 }
 
 
