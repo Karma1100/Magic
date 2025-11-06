@@ -11,7 +11,7 @@ int game_shell_loop()
 	char **args;
 
 	int status = 1;
-	do()
+	do
 	{
 		printf("MagicBoard -> ");
 
