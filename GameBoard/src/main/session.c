@@ -3,12 +3,22 @@
 #include <sys/wait.h>
 #include <string.h>
 
+//only playing jumpstart, so there is a max of 2 players
+#define PLAYER_ONE 0;
+#define PlAYER_TWO 1;
 
 
+
+//**
+//
+//
 int game_shell_loop()
 {
 	char *line;
 	char **args;
+	int player_turn;
+
+
 
 	int status = 1;
 	do
