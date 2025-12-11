@@ -1,6 +1,8 @@
 {
     "C_Cpp.default.compilerPath": "/usr/bin/clang",
     "files.associations": {
-        "curl.h": "c"
+        "curl.h": "c",
+        "windows.h": "c",
+        "stdio.h": "c"
     }
 }

@@ -1,4 +1,19 @@
-#inlcude <stdio.h>
+#include <stdio.h>
+#include "gamestate.c"
+
+int ruleCheck(){
+
+
+
+
+
+
+
+}
+
+
+
+
 
 
 

@@ -1,3 +1,6 @@
+#include <stdio.h>
+
+
 /**
  *things need to keep tack of:
  	Cards in different hands
@@ -15,5 +18,9 @@ enum GAME_PHASE{
 	COMBAT_PHASE,
 	MAIN_PHASE_TWO,
 	END_PHASE
-}
+};
+
+
+
+
 
