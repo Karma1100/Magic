@@ -1,0 +1,48 @@
+key Words:
+	Flying
+	Flash
+	First Strike
+	Lifelink 
+	Hexproof
+	Vigilance
+On enter:
+	Deal x damage
+	Draw a Card
+	Create x token(one colum for each kind of token)
+	Gain 3 life
+	Airbend(exile, cast 2 to bring back)
+	Target Flying
+	Tapped
+	
+Tokens:
+	White Ally Creature Token
+Abilities(cost):
+	Buffs:
+		+1/+1 end of turn
+		Target Flying
+		Airbend
+		Gains (Flying, first strike, lifelink and hexproof)
+	Counters:
+		Exile and Re-Enter
+	Mana:
+		+x white
+		+x any color
+		
+		
+Card kinds:
+	Instants:
+		Lessons
+		Instant
+	Creature:
+		
+	Legendary Creature:
+		
+	Enchantment:
+		 Aura
+	Land:
+		basic
+		Not basic
+
+
+
+		
