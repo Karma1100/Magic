@@ -21,6 +21,8 @@ typedef struct{
 }subclass;
 
 typedef struct{
+    char* name;
+    subclass subclassTypes;
     int power;
     int toughness;
     unsigned int is_legendary   : 1;
@@ -28,7 +30,7 @@ typedef struct{
     
 }CreatureCard;
 
-CreatureCard* Create_CreatureCard(char* name){
+CreatureCard* Create_CreatureCard(char* name_input){
     CreatureCard* newCardPtr = (CreatureCard *)malloc(sizeof(CreatureCard));
 
     if(newCardPtr == NULL){
@@ -37,11 +39,12 @@ CreatureCard* Create_CreatureCard(char* name){
 
     //API call to db to get the info to fill out fields
 
-        
+    newCardPtr->name = name_input;
     newCardPtr->power = 1;
     newCardPtr->toughness = 1;
     newCardPtr->is_legendary = 0;
     newCardPtr->keyword_abilities = (KeyWords){0};
+    newCardPtr->subclassTypes = (subclass){0};
 
 
     return newCardPtr;
