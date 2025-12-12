@@ -41,5 +41,7 @@ int main(){
 		printf("value %d\n", cardA.keys.deathtouch);
 	}
 
-		free(cardA);
+	
+	
+	free(cardA);
 }
