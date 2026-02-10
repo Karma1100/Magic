@@ -105,18 +105,18 @@ Special Class:
 Short hand Library:
 	Short Hand   |   Full Name    |    Classification Use Case
 _______________________________________________________________________
-	A		Ally		Subclass 
-	Ax		All		Effect Code
-	B		Blue		Color
-	Ba		Bat		Subclass
-	Bl		Black		Color
-	C 		Creature	Subclass
-	Cd		Card Draw	Effect Code
-	Ce		Card Exile	Effect Code
-	Cg		Card Graveyard	Effect Code
-	Cs		Card Discard	Effect Code
-	Cz		Citizen		Subclass	
-	Da		Damage		Effect Code
+	A		Ally            Subclass 
+	Ax		All             Effect Code
+	B		Blue            Color
+	Ba		Bat             Subclass
+	Bl		Black           Color
+	C 		Creature        Subclass
+	Cd		Card Draw       Effect Code
+	Ce		Card Exile      Effect Code
+	Cg		Card Graveyard  Effect Code
+	Cs		Card Discard    Effect Code
+	Cz		Citizen         Subclass	
+	Da		Damage          Effect Code
 	Ds		Double Strike	Key Word
 	En 		Enhance		Effect Code
 	Fl		Flash		Key Word
