@@ -117,25 +117,25 @@ _______________________________________________________________________
 	Cs		Card Discard    Effect Code
 	Cz		Citizen         Subclass	
 	Da		Damage          Effect Code
-	Ds		Double Strike	Key Word
-	En 		Enhance		Effect Code
-	Fl		Flash		Key Word
-	Fy		Flying		Key Word
-	G		Green		Color
-	Hu		Human		Subclass
-	Le		Lemur		Subclass
-	M 		Mana		Mana
-	OE		On Enter	Trigger
-	OD		ON DEATH	Trigger
-	Op		Opponent	Effect Code
-	Ow		Owned		Effect Code
-	P 		Power		Card Descriptor
-	R		Red		Color
-	T		Toughness	Card Descriptor
-	Ta		Tapped		Card Descriptor
-	Un		Untapped	Card Descriptor
-	W		White		Color
-	Wa		Warrior		Subclass
-	X		Variable	Effect Code	
+	Ds		Double Strike   Key Word
+	En 		Enhance         Effect Code
+	Fl		Flash           Key Word
+	Fy		Flying          Key Word
+	G		Green           Color
+	Hu		Human           Subclass
+	Le		Lemur           Subclass
+	M 		Mana            Mana
+	OE		On Enter        Trigger
+	OD		ON DEATH        Trigger
+	Op		Opponent        Effect Code
+	Ow		Owned           Effect Code
+	P 		Power           Card Descriptor
+	R		Red             Color
+	T		Toughness       Card Descriptor
+	Ta		Tapped          Card Descriptor
+	Un		Untapped        Card Descriptor
+	W		White           Color
+	Wa		Warrior         Subclass
+	X		Variable        Effect Code	
 	
 
