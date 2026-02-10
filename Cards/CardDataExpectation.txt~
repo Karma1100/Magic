@@ -1,0 +1,15 @@
+How could one quanitfy all modifyers of ever card in a set?
+Well, i would create flags for each.
+
+There is basic data, such as card type, mana cost and all of the basic card info.But how can one break it down such that the gameboard can rule check for the unique states of all of the cards?
+
+
+
+create flags for all unique scenairo. each set has their own unique functions, but all cards genearlly have the same kind of game modifyers. 
+
+As such, create a general flaging system and then implement another system to deal with the unique functions. this way for other set implimentations, all one would need to do is create a new unique function flag for that set. 
+
+the cards would then be broken down into these lists ->
+Deck list: All cards in a Jumpstart deck, or other decks(for now its just for jumpstart)
+Card Master list: This would hold all of the cards possible in the sets, with generic data and a link to a unique card function list
+Unique function list: this would be where cards with unique functions game actions would exist. the cards ID, its primary key, would link the master and unique lists togeather with functions dealing with card interactions handeling all of this.  

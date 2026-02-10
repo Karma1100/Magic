@@ -12,4 +12,130 @@ As such, create a general flaging system and then implement another system to de
 the cards would then be broken down into these lists ->
 Deck list: All cards in a Jumpstart deck, or other decks(for now its just for jumpstart)
 Card Master list: This would hold all of the cards possible in the sets, with generic data and a link to a unique card function list
-Unique function list: this would be where cards with unique functions game actions would exist. the cards ID, its primary key, would link the master and unique lists togeather with functions dealing with card interactions handeling all of this.  
+Unique function list: this would be where cards with unique functions game actions would exist. the cards ID, its primary key, would link the master and unique lists togeather with functions dealing with card interactions handeling all of this. 
+
+ie: 
+DeckList:
+	id | deck name | description
+
+	1 'Aang' 'White Deck'
+
+MasterList:
+	Card Name | Card Type | Keyword Code | Power | Toughness | Unique Abilities | Sub-Class code | Cost Code
+	Card Type Code:
+		Lc -> Legendary Creature
+		C -> Creature
+
+	Keyword Code:
+		Fy -> Flying
+		Fl -> Flash
+		Ds -> Double Strike
+		
+	SubclassCode : 
+		A -> Ally
+		B -> Bat
+		Cz -> Citizen
+		Hu -> Human
+		Le -> Lemur
+		Wa -> Warrior
+	
+	Cost code : 
+		M0W1 -> 0 Regular Mana, 1 white mana 
+	
+	omo, Rambunctious Rascal' 'Legendary Creature' {'flying'} 1 1 1 'lemur bat ally' 1 2
+
+Unique Function List:
+	Card Name | Trigger Type(integer will be enum in code) | Effect Code(Enum will be described in code)  | Text to describe | 
+	
+	trigger list:
+		M1 -> mana cost 1
+		M1W2 -> mana 1 white 2
+		M0W2 -> 0 Mana 2 white mana
+		MX -> Payed by mana cost X
+		OE -> On enter
+		OD -> On death
+		SC -> Sacrifice card
+		SXC -> Sacrifice X card
+		
+		etc etc. This list will be long
+	
+	
+	Effect Code:
+		Da damage | #d amount of damage | # of things hit(X is variable, A is all) |card status Ta tapped Un untapped | kind of things hit (C creatures Ar artifacts etc) | ownership , Op opponent Ax all  Ow Owned 
+		En enhance | #P number for Power | #T number for toughness | #kinds of things hit (C creatures A artifacts etc) | ownership , O opponent A all M mine
+		Cd draw card | #c number of cards 
+		Cs  discard cards | #cards
+		Cg place cards in graveyard | #number
+		Ce Exile Cards | #number
+		
+		To Token Creation | #number of tokens | kind of tokens (Color, subclass, subclass, subclass, ...)| #P power | #T toughness 
+			If its a treasure token, kind of token = T, then P and T are non existant and needs to be coded. 
+			Likewise all tokens need to be created and dealt with. 
+			W = white
+			R = red
+			B = blue
+			G = Green
+			Bl = black
+			subclass = subclass used for master_list  		
+	  
+		Da1d1CO -> Deals 1 Damage to Opponent creature
+		Da1d2CO -> Deals 1 Damage to 2 Opponent creatures
+		Da2d3CO -> Deals 2 Damage to 3 Opponent creatures
+		Da3d4CO -> Deals 3 Damage to 4 Opponent creatures
+		Da2d5CO -> Deals 2 Damage to 5 Opponent creatures
+		DaXdXCO -> Deals X Damage to X Opponent Creatures (given by gameboard) (logic check needed for this code)
+		Da20dACO -> Deals 20 Damage to all Opponent creatures
+		Da1d2TCO -> Deals 1 Damage to 2 Tapped creatures that the opponent controlls 
+
+		En1P2T1CM -> Enchance 1 power 2 toughness to 1 creature that is mine	
+		
+
+
+
+
+		combo code:
+		Da and En are the start of a new Code, more will come soon but for now
+		Da2d1COEn1P2T1AM -> deals 2 damage to 1 creature that the opponent controlls and enchance 1 artifact by 1/2 that I control 
+
+'Momo, Rambunctious Rascal' OE | Da1TCO | 4 | deals 4 damage to 1 tapped creature that the oppponent controlls   
+ 	
+Special Class:
+	Color -> this is a spefication, its the color of whatever comes after it. In the case of cost, where M# is prefaced, then its a cost descriptor. If infront of subclass, then the card is that color. ie, WHuWaA -> White Human Warrior Ally
+
+Short hand Library:
+	Short Hand   |   Full Name    |    Classification Use Case
+_______________________________________________________________________
+	A		Ally		Subclass 
+	Ax		All		Effect Code
+	B		Blue		Color
+	Ba		Bat		Subclass
+	Bl		Black		Color
+	C 		Creature	Subclass
+	Cd		Card Draw	Effect Code
+	Ce		Card Exile	Effect Code
+	Cg		Card Graveyard	Effect Code
+	Cs		Card Discard	Effect Code
+	Cz		Citizen		Subclass	
+	Da		Damage		Effect Code
+	Ds		Double Strike	Key Word
+	En 		Enhance		Effect Code
+	Fl		Flash		Key Word
+	Fy		Flying		Key Word
+	G		Green		Color
+	Hu		Human		Subclass
+	Le		Lemur		Subclass
+	M 		Mana		Mana
+	OE		On Enter	Trigger
+	OD		ON DEATH	Trigger
+	Op		Opponent	Effect Code
+	Ow		Owned		Effect Code
+	P 		Power		Card Descriptor
+	R		Red		Color
+	T		Toughness	Card Descriptor
+	Ta		Tapped		Card Descriptor
+	Un		Untapped	Card Descriptor
+	W		White		Color
+	Wa		Warrior		Subclass
+	
+	
+ 
