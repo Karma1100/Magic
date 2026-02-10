@@ -136,6 +136,6 @@ _______________________________________________________________________
 	Un		Untapped	Card Descriptor
 	W		White		Color
 	Wa		Warrior		Subclass
+	X		Variable	Effect Code	
 	
-	
- 
+
