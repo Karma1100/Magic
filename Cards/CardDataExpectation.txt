@@ -110,6 +110,7 @@ _______________________________________________________________________
 	B		Blue            Color
 	Ba		Bat             Subclass
 	Bl		Black           Color
+	Br 		Bear            Subclass
 	C 		Creature        Subclass
 	Cd		Card Draw       Effect Code
 	Ce		Card Exile      Effect Code
@@ -124,6 +125,7 @@ _______________________________________________________________________
 	G		Green           Color
 	Hu		Human           Subclass
 	Le		Lemur           Subclass
+	Ls		Lesson          Subclass
 	M 		Mana            Mana
 	OE		On Enter        Trigger
 	OD		ON DEATH        Trigger
@@ -131,6 +133,8 @@ _______________________________________________________________________
 	Ow		Owned           Effect Code
 	P 		Power           Card Descriptor
 	R		Red             Color
+	So		Soldier		Subclass
+	Sh		Sheep           Subclass
 	T		Toughness       Card Descriptor
 	Ta		Tapped          Card Descriptor
 	Un		Untapped        Card Descriptor
