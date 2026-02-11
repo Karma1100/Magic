@@ -1,0 +1,18 @@
+How do I want to contact the API, and thus how should I build it?
+
+
+
+
+Request - libcurl handle contacts the server and requests using a simple format.
+Response - a RESTful API will then respond to the request and give back a JSON file.
+
+data interperation - the data would then need to be fitted to custom structs to be useable. 
+
+
+architecture - 
+
+There will be 2 kinds of requets, card and deck requets.
+	Card Request:
+		The card request will go through the master_card_list table and return the information, and will then also look through the unique abilities list to report the ability triggers and effect code. 
+	Deck request:
+		A batch Card Request request. This would have multiple different configurations, from the full deck, card abilities included, to things like just card names, or card numbers, or just the name of the decks in a set. 
