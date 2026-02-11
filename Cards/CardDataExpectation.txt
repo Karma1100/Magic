@@ -127,8 +127,10 @@ _______________________________________________________________________
 	Le		Lemur           Subclass
 	Ls		Lesson          Subclass
 	M 		Mana            Mana
+	MbX		Mobilize X	Keyword
 	OE		On Enter        Trigger
 	OD		ON DEATH        Trigger
+	Or		Orc             Subclass
 	Op		Opponent        Effect Code
 	Ow		Owned           Effect Code
 	P 		Power           Card Descriptor
@@ -142,4 +144,8 @@ _______________________________________________________________________
 	Wa		Warrior         Subclass
 	X		Variable        Effect Code	
 	
-
+___________________________________________________________
+			Set Codes
+-----------------------------------------------------------
+	tla		Avatar: The Last Avatar
+	tds		Tarkir: Dragonstorm 
