@@ -1,2 +1,1 @@
-This is  a test for ssh connection from wally. 
-[11-24-25]
+connection test [2-12-26]
