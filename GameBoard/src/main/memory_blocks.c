@@ -1,7 +1,7 @@
 #include <stddef.h>
 
 
-
+//this is a basic queue system. An advacned queue for searching requests and stuff will come later.
 typedef struct Block
 {
 	size_t block_size;
