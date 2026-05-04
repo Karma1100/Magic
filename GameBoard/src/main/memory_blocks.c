@@ -1,4 +1,6 @@
 #include <stddef.h>
+#include "mongoose.h"
+
 
 
 //this is a basic queue system. An advacned queue for searching requests and stuff will come later.
@@ -7,6 +9,8 @@ typedef struct Block
 	size_t block_size;
 	int free;
 	struct Block *next;
+
+
 }Block;
 
 static char memory_pool[1024*1024];
