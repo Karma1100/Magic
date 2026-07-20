@@ -4,20 +4,13 @@
 
 
 
-int main(int argc, char *argv[])
+int main()
 {
-    	printf("test.c:\n");    
-	int result = 0;	
+    printf("test.c:\n");    
 
-	if(argc > 1)
-	{
-		char *input = argv[1];
-		int result = scryfall_request_card_data(input);
+    char *cardname = "zurgo%20stormrender";
 
-	}else{
-		printf("Missing card name");
-	}
-    	char *cardname = "zurgo%20stormrender";
+    int result = scryfall_request_card_data(cardname);
 
-    	return result;
+    return 1;
 }
