@@ -16,15 +16,30 @@ int main()
 		write(STDOUT_FILENO, "m_shell>",8);
 		ssize_t read_status = read(STDIN_FILENO, buffer, sizeof(buffer) - 1);
 		
-		if(read_status > 0 && buffer[read_status] == '\n')
+		//Makes sure input is the right size and changes input to allow it to be commpared. 	
+		if(read_status > 0 && buffer[read_status - 1] == '\n')
 		{
-			buffer[read_status] == '\0';
+			buffer[read_status -1] == '\0';
 			EXIT_CONDITION = 1;
 			write(STDOUT_FILENO, "input is: ", 10);
 			write(STDOUT_FILENO, buffer, (sizeof(buffer) - 1));
 			write(1, "Command Completed\n", 18); 
 			//write(STDOUT_FILENO, "\n", 1);
 		}
+
+
+
+		if(buffer == "exit")
+		{
+			write(1, "Goodbye", 7); 
+			break;
+		}
+		//Command to connect to db
+		if(buffer == "dbConnect")
+		{
+
+		}
+		
 		//this is to check if input is working. Commented out for trouble shooting later
 		/*
 		if(read_status > -1)
