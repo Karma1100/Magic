@@ -19,10 +19,12 @@ int main()
         	return 1;
     	}
 
-    	printf("Connected to database successfully.\n");
+    	write(STDOUT_FILENO, "Connected to database\n", 22);
+
 	
 	
 	PQfinish(conn);
+	write(STDOUT_FILENO, "Connection ended\n", 17);
 
 	return 0;
 }
