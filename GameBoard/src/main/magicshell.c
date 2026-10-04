@@ -19,20 +19,22 @@ int main()
 		//Makes sure input is the right size and changes input to allow it to be commpared. 	
 		if(read_status > 0 && buffer[read_status - 1] == '\n')
 		{
-			buffer[read_status -1] == '\0';
+			buffer[read_status -1] = '\0';
+			read_status--;
 			EXIT_CONDITION = 1;
 			write(STDOUT_FILENO, "input is: ", 10);
-			write(STDOUT_FILENO, buffer, (sizeof(buffer) - 1));
+			write(STDOUT_FILENO, buffer, (read_status));
+			write(1, "\n", 1);
 			write(1, "Command Completed\n", 18); 
-			//write(STDOUT_FILENO, "\n", 1);
+			
 		}
 
 
 
-		if(buffer == "exit")
+		if(strcmp(buffer, "exit") == 0)
 		{
-			write(1, "Goodbye", 7); 
-			break;
+			EXIT_CONDITION = 0;
+			
 		}
 		//Command to connect to db
 		if(buffer == "dbConnect")
@@ -50,9 +52,9 @@ int main()
 		*/		
 		memset(buffer, 0, sizeof(buffer));
 
-		if(EXIT_CONDITION = 0)
+		if(EXIT_CONDITION == 0)
 		{
-			write(STDOUT_FILENO, "\n", 1);
+			
 			write(STDOUT_FILENO, "exit condition met\n", 19); 
 			break;
 		}
