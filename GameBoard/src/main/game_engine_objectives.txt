@@ -1,0 +1,30 @@
+Things for the engine to work:
+game state
+legal actions
+action check
+stack resolution
+priority
+
+players board:
+	graveyard
+	current hand
+	player board state
+Cards:
+	id
+	current status
+		tapped
+		untapped
+	power
+	toughness
+	power modifyed
+	toughness modifyed
+	ownership
+	summoning sicknes
+	dynamic flags - most likely going to be an array of ability codes 
+	Cost
+Card stack:
+	comboID - owner of the card + the db id of the card
+	targetID 
+	sell or ability bool
+
+
