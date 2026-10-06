@@ -26,6 +26,7 @@ int main()
 	PQfinish(conn);
 	write(STDOUT_FILENO, "Connection ended\n", 17);
 
+
 	return 0;
 }
 
